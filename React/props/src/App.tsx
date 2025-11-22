@@ -1,12 +1,12 @@
-import Card from "./components/card"
+import { CardSection } from "./components/cardSection";
 
 function App() {
-
   return (
-    <div className="flex flex-col justify-center items-center min-h-screen ">
-      <Card/>   
+    <div >
+      <CardSection/>
+
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
